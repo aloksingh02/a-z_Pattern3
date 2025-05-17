@@ -1,15 +1,8 @@
-
-//        *
-//        **
-//        ***
-//        ****
-
-
 import java.util.Scanner;
 public class Pattern_oppositeTriangle {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the a: ");
+        System.out.print("Enter the size for triangle: ");
         int a = sc.nextInt();
 
         for(int i=1; i<=a; i++){
